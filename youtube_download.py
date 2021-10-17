@@ -4,7 +4,7 @@ from pytube import YouTube
 root = Tk()
 root.geometry('500x300')
 root.resizable(0,0)
-root.title("DataFlair-youtube video downloader")
+root.title("Youtube Video Downloader")
 
 
 Label(root,text = 'Youtube Video Downloader', font ='arial 20 bold').pack()
@@ -31,7 +31,7 @@ def Downloader():
     Label(root, text = 'DOWNLOADED', font = 'arial 15').place(x= 180 , y = 210)  
 
 
-Button(root,text = 'DOWNLOAD', font = 'arial 15 bold' ,bg = 'pale violet red', padx = 2, command = Downloader).place(x=180 ,y = 150)
+Button(root,text = 'DOWNLOAD', font = 'arial 15 bold' ,bg = 'blue', padx = 2, command = Downloader).place(x=180 ,y = 150)
 
 
 
